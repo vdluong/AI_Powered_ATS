@@ -13,5 +13,21 @@ public class Candidate {
         this.technicalSkills = technicalSkills;
         this.projects = projects;
     }
+
+    public String getFullName() {
+        return fullName;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public List<String> getTechnicalSkills() {
+        return technicalSkills;
+    }
+
+    public List<Project> getProjects() {
+        return projects;
+    }
     // Ghi chú: Team tự dùng IDE generate Getters và Setters.
 }
